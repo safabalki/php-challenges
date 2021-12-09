@@ -5,24 +5,24 @@ include 'Bracket.php';
 class BracketsChallenge
 {	
 	/**
-     * Square bracket character type 
-     *
-     * @var Bracket
-     */
+	* Square bracket character type 
+	*
+	* @var Bracket
+	*/
 	public $squareBracket;
 
 	/**
-     * Curly bracket character type 
-     *
-     * @var Bracket
-     */
+	* Curly bracket character type 
+	*
+	* @var Bracket
+	*/
 	public $curlyBracket;
 
 	/**
-     * Round bracket character type 
-     *
-     * @var Bracket
-     */
+	* Round bracket character type 
+	*
+	* @var Bracket
+	*/
 	public $roundBracket;
 
 	public function checkBrackets($text = '')
