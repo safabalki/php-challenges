@@ -4,10 +4,10 @@ class StringChallenge
 {
 
  	/**
-     * Sort elements in array by last word
-     *
-     * @return Array
-     */
+	* Sort elements in array by last word
+	*
+	* @return Array
+	*/
  	public function sortStringArrByLastWord($str = "")
  	{
  		if(gettype($str) == "string"){
